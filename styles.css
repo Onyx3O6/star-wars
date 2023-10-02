@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url("./star-wars-backgrounds-25.jpg");
-    font-family: 'Star Wars', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,10 +22,11 @@ body {
     color: #4bd5ee;
     opacity: 0;
     animation-delay: 1s;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-name: a-long-time-ago;
     animation-timing-function: ease-out;
 }
+
 
 @keyframes a-long-time-ago {
     0% {
@@ -61,14 +62,20 @@ body {
     transform: perspective(300px) rotateX(25deg);
 }
 
+.crawl > .titre {
+    font-size: 90%;
+    text-align: center;
+    animation-delay: 3s;
+}
 .crawl > div {
     position: absolute;
     top: 100%; 
-    animation-delay: 5s;
+    animation-delay: 15s;
     animation-duration: 30s;
     animation-name: crawl;
     animation-timing-function: linear;
 }
+
 
 @keyframes crawl {
     0% {
