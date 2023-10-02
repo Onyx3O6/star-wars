@@ -1,94 +1,91 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-    background: black;
-    margin: 0;
-    overflow: hidden;
-  
+  width: 100%;
+  height: 100%;
+  background: black;
+  margin: 0;
+  overflow: hidden;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("./star-wars-backgrounds-25.jpg");
-    font-family: 'Pathway Gothic One', sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./star-wars-backgrounds-25.jpg");
+  font-family: "Pathway Gothic One", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .a-long-time-ago {
-    /* cosmétique */
-    font-size: 32px;
-    color: #4bd5ee;
-    opacity: 0;
-    animation-delay: 1s;
-    animation-duration: 3s;
-    animation-name: a-long-time-ago;
-    animation-timing-function: ease-out;
+  /* cosmétique */
+  font-size: 32px;
+  color: #4bd5ee;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-name: a-long-time-ago;
+  animation-timing-function: ease-out;
 }
 
-
 @keyframes a-long-time-ago {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    20% {
-        opacity: 1;
-    }
+  20% {
+    opacity: 1;
+  }
 
-    80% {
-        opacity: 1;
-    }
+  80% {
+    opacity: 1;
+  }
 
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }
 
 .crawl {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    width: 800px;
-    margin: 0 0 0 -400px;
-    top: auto;
-    bottom: 0;
-    height: 50em;
-    color: #ffff66;    
-    font-size: 64px;
-    text-align: justify;
-    transform-origin: center bottom;
-    transform: perspective(300px) rotateX(25deg);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 800px;
+  margin: 0 0 0 -400px;
+  top: auto;
+  bottom: 0;
+  height: 50em;
+  color: #ffff66;
+  font-size: 64px;
+  text-align: justify;
+  transform-origin: center bottom;
+  transform: perspective(300px) rotateX(25deg);
 }
 
 .crawl > .titre {
-    font-size: 90%;
-    text-align: center;
-    animation-delay: 3s;
+  font-size: 125%;
+  text-align: center;
+  animation-delay: 3s;
 }
 .crawl > div {
-    position: absolute;
-    top: 100%; 
-    animation-delay: 15s;
-    animation-duration: 30s;
-    animation-name: crawl;
-    animation-timing-function: linear;
+  position: absolute;
+  top: 100%;
+  animation-delay: 35s;
+  animation-duration: 86s;
+  animation-name: crawl;
+  animation-timing-function: linear;
 }
 
-
 @keyframes crawl {
-    0% {
-        top: 100%;
-        opacity: 1;
-    }
+  0% {
+    top: 100%;
+    opacity: 1;
+  }
 
-    80% {
-        opacity: 1;
-    }
+  80% {
+    opacity: 1;
+  }
 
-    100% {
-        top: 0;
-        opacity: 0;
-    }
+  100% {
+    top: 0;
+    opacity: 0;
+  }
 }
