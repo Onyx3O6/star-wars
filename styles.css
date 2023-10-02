@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url("./star-wars-backgrounds-25.jpg");
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Star Wars', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
